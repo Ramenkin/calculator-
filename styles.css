@@ -1,0 +1,41 @@
+:root {
+    --dark: #035956;
+    --light: #45D8D3;
+    --acsent: #7C00FF;
+}
+
+body {
+    background-color: var(--light);
+    color: var(--dark);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+input {
+    all: unset;
+    margin: 0 10px;
+    background-color: aquamarine;
+    color: var(--dark);
+    max-width: 80px;
+    padding: 10px;
+}
+
+button {
+    all:unset;
+    background-color:#33c1bc;
+    color:rgb(52, 99, 100);
+    margin: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#output {
+    background-color: #00706c5c;
+    color: aquamarine;
+    pading: 13px;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
